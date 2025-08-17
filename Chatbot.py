@@ -21,3 +21,4 @@ jobs:
     - name: Install ChatterBot
       run: |
         pip install chatterbot
+from Chatbot import ChatBot
