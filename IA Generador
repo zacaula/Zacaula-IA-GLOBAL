@@ -1,1 +1,13 @@
 Generador.yml
+name: IA Generador
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ejecutar script de generación
+        run: |
+          python generar_contenido.py
